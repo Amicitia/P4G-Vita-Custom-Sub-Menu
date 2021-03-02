@@ -237,8 +237,10 @@ void generate_hangout_menu()
     // Set bumpers to someone else if it's available
     if (pageTwoMask != 268435455)
     {
+        SET_SEL_CHOICE_KEYBIND(10, 28);
+        SET_SEL_CHOICE_KEYBIND(11, 28);
+		SET_SEL_CHOICE_KEYBIND(5, 28);
         SET_SEL_CHOICE_KEYBIND(7, 28);
-        SET_SEL_CHOICE_KEYBIND(5, 28);
     }
 
     int localVariable56 = ADV_SEL(localVariable54, localVariable55, pageOneMask);
@@ -1069,8 +1071,10 @@ _choiceLoop:
         // Generate another menu
         SET_SEL_CHOICE_KEYBIND(14, 29);
         // Set bumpers to someone else
+        SET_SEL_CHOICE_KEYBIND(10, 28);
+        SET_SEL_CHOICE_KEYBIND(11, 28);
+		SET_SEL_CHOICE_KEYBIND(5, 28);
         SET_SEL_CHOICE_KEYBIND(7, 28);
-        SET_SEL_CHOICE_KEYBIND(5, 28);
         // If you're on page one go to two and vice versa
         if (localVariable120 == 0)
         {

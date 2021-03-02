@@ -2,8 +2,10 @@ int PlayerMenuDisplay()
 {
 	while(true) 
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int selection = ADV_SEL(Player_Menu_Text_1, Player_Menu_1, 0);
@@ -53,8 +55,10 @@ int PlayerMenuDisplay2()
 	BackToModMenu = false;
 	while(true) 
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int selection = ADV_SEL(Player_Menu_Text_2, Player_Menu_2, 0);
@@ -133,8 +137,10 @@ int ChooseMonth()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 15);
 			SET_SEL_CHOICE_KEYBIND(5, 15);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			month = ADV_SEL(Month_Text1, Months1, 0);
 			switch (month)
 			{
@@ -163,8 +169,10 @@ int ChooseMonth()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 15);
 			SET_SEL_CHOICE_KEYBIND(5, 15);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			month = ADV_SEL(Month_Text2, Months2, 0);
 			switch (month)
 			{
@@ -285,8 +293,10 @@ int ChooseSL()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 16);
 			SET_SEL_CHOICE_KEYBIND(5, 16);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			selection = ADV_SEL(SL_SEL_Text1, SocialLinkSel1, 0);
 			switch (selection)
 			{
@@ -324,8 +334,10 @@ int ChooseSL()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 16);
 			SET_SEL_CHOICE_KEYBIND(5, 16);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			selection = ADV_SEL(SL_SEL_Text2, SocialLinkSel2, 0);
 			switch (selection)
 			{
@@ -363,8 +375,10 @@ int ChooseSL()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 16);
 			SET_SEL_CHOICE_KEYBIND(5, 16);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			selection = ADV_SEL(SL_SEL_Text3, SocialLinkSel3, 0);
 			switch (selection)
 			{
@@ -402,8 +416,10 @@ int ChooseSL()
 		{
 			SET_SEL_CHOICE_KEYBIND(15, 18);
 			SET_SEL_CHOICE_KEYBIND(14, 17);
-			SET_SEL_CHOICE_KEYBIND(7, 15);
+			SET_SEL_CHOICE_KEYBIND(10, 15);
+			SET_SEL_CHOICE_KEYBIND(11, 16);
 			SET_SEL_CHOICE_KEYBIND(5, 16);
+			SET_SEL_CHOICE_KEYBIND(7, 15);
 			selection = ADV_SEL(SL_SEL_Text4, SocialLinkSel4, 0);
 			switch (selection)
 			{

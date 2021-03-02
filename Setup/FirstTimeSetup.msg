@@ -105,11 +105,6 @@
 [f 0 5 -258][f 2 1]Set spoiler-free mode
 [n](Only social links you have met will be shown)[f 1 1][e]
 
-[f 0 5 -258][f 2 1][f 0 1 1]Custom Sub Menu Setup[n]
-[f 0 1 0]Thanks for trying the Custom Sub Menu mod!
-[n]Please choose which features you'd like to use.
-[n]You can always change these settings later.[f 1 1][e]
-
 [msg IntroSkipConfig]
 [f 0 5 -258][f 2 1][f 0 1 1]Intro Skip Setup[n]
 [f 0 1 0]The opening events of Persona 4 Golden

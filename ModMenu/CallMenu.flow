@@ -9,8 +9,10 @@ int CallMenuDisplay()
 		mask = 0;
 	while(true) 
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int selection = ADV_SEL(Call_Menu_Text, Call_Menu_1, mask);
@@ -64,8 +66,10 @@ int CallMenuDisplay2()
 	BackToModMenu = false;
 	while(true) 
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int selection = ADV_SEL(Call_Menu_Text_2, Call_Menu_2, 0);
@@ -165,8 +169,10 @@ int Facilities()
 	int fieldMinor = GET_FIELD_MINOR();
 	while (true)
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int facility = ADV_SEL(Facility_Menu_Text, Facility_Menu_1, 0);
@@ -224,8 +230,10 @@ int Facilities2()
 	int fieldMinor = GET_FIELD_MINOR();
 	while (true)
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 10);
+		SET_SEL_CHOICE_KEYBIND(10, 10);
+		SET_SEL_CHOICE_KEYBIND(11, 10);
 		SET_SEL_CHOICE_KEYBIND(5, 10);
+		SET_SEL_CHOICE_KEYBIND(7, 10);
 		SET_SEL_CHOICE_KEYBIND(14, 11);
 		SET_SEL_CHOICE_KEYBIND(15, 12);
 		int facility = ADV_SEL(Facility_Menu_Text_2, Facility_Menu_2, 0);
@@ -304,8 +312,10 @@ int Battles()
 {
 	while (true)
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 15);
+		SET_SEL_CHOICE_KEYBIND(10, 15);
+		SET_SEL_CHOICE_KEYBIND(11, 15);
 		SET_SEL_CHOICE_KEYBIND(5, 15);
+		SET_SEL_CHOICE_KEYBIND(7, 15);
 		SET_SEL_CHOICE_KEYBIND(14, 16);
 		SET_SEL_CHOICE_KEYBIND(15, 17);
 		int boss = ADV_SEL( BOSS_SEL1_Text, BOSS_SEL1, 0 );
@@ -358,8 +368,10 @@ int Battles2()
 	BackToModMenu = false;
 	while (true)
 	{
-		SET_SEL_CHOICE_KEYBIND(7, 15);
+		SET_SEL_CHOICE_KEYBIND(10, 15);
+		SET_SEL_CHOICE_KEYBIND(11, 15);
 		SET_SEL_CHOICE_KEYBIND(5, 15);
+		SET_SEL_CHOICE_KEYBIND(7, 15);
 		SET_SEL_CHOICE_KEYBIND(14, 16);
 		SET_SEL_CHOICE_KEYBIND(15, 17);
 		int boss2 = ADV_SEL( BOSS_SEL2_Text, BOSS_SEL2, 0 );
