@@ -86,8 +86,11 @@ void ToggleOption(int startMsg, int startFlag, int selection)
 			}
 			else if(selection == 4)
 			{
+				CLOSE_MSG_WIN();
+				OPEN_MSG_WIN();
 				MSG(SPOILER_TOGGLE);
 				sel = SEL(ToggleMenu);
+				CLOSE_MSG_WIN();
 				if (sel == 0)
 					BIT_ON(5678);
 				else if (sel == 1)
@@ -134,4 +137,19 @@ void DungeonOptionsToggle()
 			done = true;
 		}
 	}
+}
+
+bool IntroSkip() {
+	OPEN_MSG_WIN();
+	HELP_MSG( IntroSkipConfig );
+	CLOSE_MSG_WIN();
+	OPEN_MSG_WIN();
+	MSG( IntroSkipSelection );
+	int selection = SEL( YesNo );
+	CLOSE_MSG_WIN();
+	if (selection == 0)
+		selection = 1;
+	else
+		selection = 0;
+	return selection;
 }
