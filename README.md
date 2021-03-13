@@ -1,7 +1,7 @@
 # P4G Custom Sub Menu (Vita)
 **Custom scripts for Persona 4 Golden that replace the square button function with a fully featured trainer**  
 <img src="/Screenshots/modmenu.gif?raw=true">  
-Go to [this repository for the PC version](https://github.com/ShrineFox/Persona-4-Golden-Mod-Menu).
+Go to [this repository for the PC version](https://github.com/ShrineFox/Persona-4-Golden-Mod-Menu) or [this one for PS2](https://github.com/Amicitia/P4-PS2-Custom-Sub-Menu).
 ## Notable Features
 - **Call Menu**: Using IDs, call a Field, Dungeon Floor, Battle, Event, Cutscene, BGM/SFX Track, Dungeon or Facility to load
 - **Player Menu**: Change date/time, Social Link ranks, give yen/items, manage party members
